@@ -1,0 +1,309 @@
+*{ margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ html{ scroll-behavior: smooth;}
+
+header{ width:100%;
+        height:90px;
+        background-color: #fff;
+        box-shadow: 0px 3px 3px #b3b3b3;
+        position: fixed;
+    } 
+
+header .inner{ width:1350px;
+               height:100%;
+               margin:auto;
+               display:flex;
+               justify-content: space-between;
+               align-items: center;
+            }    
+
+header .logo{ width:170px;
+              height:60px; }  
+              
+header nav{ width:450px;
+            height:30px;}       
+            
+nav ul{ display:flex;
+        align-items: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        list-style: none;
+       }   
+
+     
+nav ul li a{ text-decoration: none;
+             padding:10px;
+             box-sizing: border-box;
+             color:#000;}     
+
+nav ul li:hover{ cursor: pointer;}   
+
+.banner{ width:100%;
+         height:100vh;
+         background-image: url("images/the-town-bg-01.jpg");
+         background-size: cover;
+         background-position: center;
+         background-attachment: fixed;
+         box-shadow: 0px 3px 10px #36363666 inset;
+         display:flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         flex-wrap: wrap;       
+      }
+
+.banner h1{  font-size: 45px;
+             color:#fff;
+             text-shadow: 2px 3px 2px #000;}    
+             
+.banner i{ font-size:90px;
+           color:#fff;
+         padding-top:60px;
+         box-sizing: border-box;}     
+         
+.banner i:hover{ transition:0.5s;
+                 cursor:pointer;
+                 color:#3393D4;}        
+                 
+.intro
+{ width:100%;
+  height:480px;
+}      
+
+.introInner{ width:1300px;
+             height:480px;
+             margin:auto;
+             margin-top:100px;
+             display:flex;
+             justify-content: space-between;
+            }
+
+.introImage{ width:45%;
+             height:400px;
+            }   
+
+.introImage img{ width:100%;
+                 height:100%;}            
+            
+.introCont{ width:48%;
+            height:400px;
+         }      
+         
+.introCont h1{ font-size: 50px;
+               color:#3393D4;
+               padding: 30px 0px 20px 0px;
+               box-sizing: border-box;
+            }   
+            
+.introCont p{ line-height: 30px;
+              font-size:25px;
+              color:#848484;
+            }  
+            
+.introCont button{ width:150px;
+                   height:40px;
+                   border-radius:30px;
+                  text-align: center;
+                  color:#fff;
+                  background-color: #3393D4;
+                   border:none;
+                   font-size:18px;
+                  margin-top:40px;}   
+                  
+.introFeat{ width:100%;
+            height:450px;}  
+            
+.introFeatInner{ width:1300px;
+                 height:380px;
+                display:flex;
+                margin:auto;}       
+                
+.introFeatBox{ width:30%;
+               height:100%;
+               margin-left:30px;
+            }        
+            
+.introFeatBox i{ width:100%;
+                 font-size:70px;
+                 text-align: center;
+                 color:#3393D4;
+                 padding:40px;
+                 box-sizing: border-box;
+               }  
+               
+.introFeatBox h3{ width:100%;
+                  color:#3393D4;
+                  text-align: center;
+                  font-size:30px;
+                  padding:20px;
+                  box-sizing: border-box;
+                }      
+                
+.introFeatBox p{ width:100%;
+                 color:#848484;
+                 font-size: 20px;
+                 text-align: center;
+                 padding:20px;
+                 box-sizing: border-box;
+              }         
+              
+.ourWork{ width:100%;
+          height:650px; } 
+          
+.ourWorkIn{ width:1300px;
+            height:650px;
+            margin:auto;}       
+            
+.ourWorkIn h2{ font-size:50px;
+               color: #3393D4;
+               text-align: center;
+               padding:40px;
+               box-sizing: border-box;
+               }    
+               
+.ourWorkIn p{ font-size: 18px;
+              color:#848484;
+              text-align: center;
+              padding:10px 250px 0px 250px;
+              line-height: 30px;
+             box-sizing: border-box;
+            }
+            
+.imageSec{ width:100%;
+          height:350px;
+          margin-top:60px;
+          display:flex;
+         justify-content: space-between;
+      }   
+      
+.imgBox1, .imgBox2, .imgBox3, .imgBox4, .imgBox5
+{ width:30%;
+  height:100%;
+  margin-left:10px;
+  background-image:url("images/gallery-tn-01.jpg");
+  background-position: center;
+  background-size: cover;
+}      
+
+.imgBox2{ background-image: url("images/gallery-tn-02.jpg");}
+
+.imgBox3{ background-image: url("images/gallery-tn-04.jpg");}
+
+.imgBox4{ background-image: url("images/gallery-img-05.jpg");}
+
+.imgBox5{ background-image: url("images/gallery-img-06.jpg");}
+   
+.imgOverlay{ width:100%;
+             height:100%;
+             background-color: #00000000;
+             color: #ffffff00;
+             transition:1s;
+            }     
+             
+.imgOverlay:hover{ background-color: #0000006f;
+                   border-bottom: #3393D4 solid 10px; 
+                   font-size:30px;
+                   text-align: center;
+                   padding:150px 30px 20px 30px;
+                   box-sizing: border-box;
+                   color:#fff;}      
+                   
+.contact{ width:100%;
+          height:650px;
+           background-image: url("images/the-town-bg-02.jpg");
+          background-position: center;
+          background-size: cover;
+          background-attachment: fixed;
+          margin-top:80px;
+          display:flex;
+          align-items: center;
+           }             
+          
+.contactInner{ width:1000px;
+               height:580px;
+               margin:auto;
+               color:#fff;
+            }     
+            
+.contactInner h1{ font-size:60px;}      
+
+.cBox{ width:100%;
+       height:80%;
+       border-top:3px solid #fff;
+       margin-top:10px;}
+
+.wbox{ width:300px;
+       height:8px;
+       background-color: #fff;
+       float:left;}  
+       
+.pBox{ width:100%;
+       height:100px;
+       margin-top:20px;
+       font-size:20px;
+       line-height: 30px;
+       padding:20px 0px 0px 0px;
+       box-sizing: border-box;
+     }       
+
+.iconBox{ width:100%;
+          height:75%;
+          margin-top:30px;
+         }     
+
+.iconIn{ width:50%;
+         height:100px;
+         margin-top:20px;
+         float:left;
+         display: flex;
+         align-items: center;
+         transition:1s;
+      }      
+
+.iconIn:hover{ color:#3393D4;}      
+      
+.iconIn i{ font-size: 40px;
+            padding-right:20px;
+            box-sizing: border-box;}      
+
+.iconIn input{ width:300px;
+               height:40px;
+               border-radius: 5px;
+               border:solid 0.5px #fff;
+               background-color: inherit;
+               color:#fff;
+               padding:10px;
+               box-sizing: border-box;
+               }   
+               
+.iconIn input::placeholder{ color:#fff;
+                            opacity:1;}    
+
+.iconIn button{ width: 100px;
+                height:40px;
+                margin-left:10px;
+               border-radius:5px;
+               background-color: #CED4DA;
+              border:none;}                            
+
+
+                            
+footer{ width:1000px;
+        height:30px;
+        margin:auto;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.679);
+     }                            
+
+            
+
+
+
+ 
+  
+
+  
+
